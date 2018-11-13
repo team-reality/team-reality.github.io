@@ -1,0 +1,12 @@
+#content {
+  margin-top: 56px;
+  min-height: calc(100vh - 120px - 56px);
+}
+.max-500 {
+  max-width: 800px;
+}
+@media screen and (max-width: 1200px) {
+  .max-500 {
+    max-width: 100%
+  }
+}
